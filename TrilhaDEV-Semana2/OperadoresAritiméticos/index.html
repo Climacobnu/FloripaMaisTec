@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    
+        //   OPERADORES ARITMÉTICOS
+    
+        //   1° -> () -> PARÊNTESES
+    
+        //   2° - ** -> EXPONECIAÇÃO
+    
+        //   3° - * -> MULTIPLICAÇÃO
+        //   / -> DIVISÃO
+        //   % -> RESTO / MÓDULO
+    
+        //   4° + -> ADIÇÃO
+        //   - -> SUBTRAÇÃO
+       
+        let numero1 = 9;
+        let numero2 = "2.5";
+    
+        // adição
+        console.log(numero1 + numero2);
+        console.log(numero1 + Number.parseFloat(numero2));
+        console.log(numero1 + +numero2);
+        // subtração
+        console.log(numero1 - numero2);
+        // divisão
+        console.log(numero1 / numero2);
+        // multiplicação
+        console.log(numero1 * numero2);
+        // RESTO
+        console.log(numero1 % numero2);
+        //EXPONECIAÇÃO;
+        console.log(numero1 ** numero2);
+    
+        let numero1 = 9;
+        let numero2 = 2;
+        
+        let resultado = (6 + 3) * 2;
+        numero1 += numero2;
+    
+        console.log(numero1);
+    
+        // template literals / strings
+    
+        let nome = "Bruno";
+        let curso = "FMT";
+        console.log(`O aluno ${nome} está cursando o curso ${curso}`);
+    
+        let nome = prompt("Digite seu nome");
+        let curso = prompt("Qual curso você está realizando?");
+        alert(`O aluno ${nome} está cursando o curso ${curso}`);
+    
+        exercício prático 1
+        let numero = Number(prompt("Digite um número:"));
+    
+        if (numero % 2 == 0) {
+          alert("Este é um número PAR!");
+        } else {
+          alert("Este é um número IMPAR!");
+        }
+    
+        // exercício prático 2
+        
+        let numero1 = Number(prompt("Digite o primeiro número:"));
+        let numero2 = Number(prompt("Digite o segundo número:"));
+        let numero3 = Number(prompt("Digite o terceiro número:"));
+        let numero4 = Number(prompt("Digite o quarto número:"));
+    
+        let media = (numero1 + numero2 + numero3 + numero4) / 4;
+    
+        alert(`A média das notas do aluno é ${media}`);
+    </script>
+    
+</body>
+</html>
