@@ -1,0 +1,41 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+
+
+    .header {
+        width: 100vw;
+        height: 4em;
+        background-color: #14213d;
+
+
+    }
+
+    .header a {
+        color: #fca311;
+        padding: 0 1em;
+
+
+    }
+
+    .header-menu {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    home {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
