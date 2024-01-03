@@ -1,0 +1,13 @@
+function estaCongelando(temperatura) {
+
+    if(temperatura < 0){
+      return true
+    }else{
+      return false
+    }
+
+}
+
+// Não modifique as linhas abaixo
+console.log(estaCongelando(-5))
+console.log(estaCongelando(10))
