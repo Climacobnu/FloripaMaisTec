@@ -1,0 +1,11 @@
+function pegueNome(nome) {
+
+  nome = nome.toUpperCase()
+  nome = nome.trim();
+  return nome
+    
+}
+
+// Exemplo de uso - não modifique
+console.log(pegueNome(" bruno"))
+console.log(pegueNome(" alex  "))

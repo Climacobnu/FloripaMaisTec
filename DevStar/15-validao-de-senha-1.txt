@@ -1,0 +1,10 @@
+function senhaEValida(senha) {
+    console.log(senha)
+let senhaFormatada = senha.trim()
+
+if(senhaFormatada.length >= 10){
+        return true
+    } else{
+        return false
+    }
+}

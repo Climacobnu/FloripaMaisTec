@@ -1,0 +1,4 @@
+function converterKmParaMilhas(valorKM) {
+     valorKM =  valorKM * 0.62137
+        return valorKM
+}
