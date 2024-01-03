@@ -1,0 +1,30 @@
+function adicionarNota(notas, nota) {
+
+    notas.push(nota)
+    return notas
+
+  
+
+
+
+}
+
+function obterTotalDeNotas(notas) {
+
+  return notas.length 
+
+}
+
+function obterPrimeiraNota(notas) {
+
+  return notas[0]
+
+}
+
+
+function obterUltimaNota(notas) {
+
+    let ultimaNota = notas[notas.length-1]
+    return ultimaNota
+
+}

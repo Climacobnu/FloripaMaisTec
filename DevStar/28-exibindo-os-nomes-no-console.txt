@@ -1,0 +1,5 @@
+let nomes = ["Alice", "Bruno", "Samuel", "Augusto"]
+
+    nomes.forEach(function(nome){
+        console.log(nome)
+    })

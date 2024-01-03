@@ -1,0 +1,19 @@
+function obterNumeroTotalDeNotas(notas) {
+
+    return notas.length
+
+}
+
+function obterPrimeiraNota(notas) {
+
+   let primeiraNota = notas[0]
+      return primeiraNota
+}
+
+function obterUltimaNota(notas) {
+
+   let ultimaNota = notas[notas.length-1]
+    return ultimaNota
+
+
+}

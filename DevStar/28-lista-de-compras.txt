@@ -1,0 +1,3 @@
+let listaDeCompras = ["arroz", "feijão", "batata", "limão"]
+
+console.log(listaDeCompras)

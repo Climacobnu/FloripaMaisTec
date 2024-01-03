@@ -1,0 +1,14 @@
+function inverterBooleano(valor) {
+
+  if (valor === true) {
+    return false
+} else {
+    return true
+
+  }
+}
+
+// Não modifique as linhas abaixo
+console.log(inverterBooleano(true)) // false
+console.log(inverterBooleano(false)) // true
+console.log(inverterBooleano(15 > 10)) // false

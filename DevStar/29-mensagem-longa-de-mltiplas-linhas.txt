@@ -1,0 +1,3 @@
+let mensagem = [`Você pode escrever o que quiser, desde que essa string ocupe várias linhas. Sinta-se à vontade para acessar `]
+
+console.log(mensagem)

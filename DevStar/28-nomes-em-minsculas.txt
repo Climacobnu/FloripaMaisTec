@@ -1,0 +1,12 @@
+function nomesEmMinusculas(nomes) {
+
+ let nomesEmMinusculas = nomes.map(function(nome){
+     return nome.toLowerCase();
+ })
+      return nomesEmMinusculas 
+
+}
+
+// Não modifique as linhas abaixo
+console.log(nomesEmMinusculas(["Alice", "Bruno", "Samuel", "Augusto"])) // ["alice", "bruno", "samuel", "augusto"]
+console.log(nomesEmMinusculas(["SAMARA", "ALEXANDRE", "CARLA"])) // ["samara", "alexandre", "carla"]

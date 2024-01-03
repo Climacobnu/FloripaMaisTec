@@ -1,0 +1,11 @@
+function juntarComEComercial(notas) {
+
+  let juntarComEComercial = notas.join(" & ")
+  return juntarComEComercial
+
+
+}
+
+// Não modifique as linhas abaixo
+console.log(juntarComEComercial([10, 15, 13, 19])) // "10 & 15 & 13 & 19"
+console.log(juntarComEComercial([7, 13, 20, 15])) // "7 & 13 & 20 & 15"
