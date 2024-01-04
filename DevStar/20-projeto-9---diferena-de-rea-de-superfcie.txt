@@ -1,0 +1,8 @@
+function calcularDiferenca(primeiroRetangulo, segundoRetangulo) {
+    console.log("Primeiro Retângulo", primeiroRetangulo)
+    console.log("Segundo Retângulo", segundoRetangulo)
+
+    return (primeiroRetangulo[0] * primeiroRetangulo[1] - segundoRetangulo[0] * segundoRetangulo[1])
+    
+}
+
