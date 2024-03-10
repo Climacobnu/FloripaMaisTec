@@ -1,0 +1,14 @@
+function somaNumeros(numeros) {
+let valorInicial = 0;
+
+let somaNumeros = numeros.reduce(function(total, atual) {
+    
+    return total + atual
+}, valorInicial);
+
+    return somaNumeros
+}
+
+// Não modifique as linhas abaixo:
+console.log(somaNumeros([10, 20, 30])) // 60
+console.log(somaNumeros([2, 4, 2, 10])) // 18

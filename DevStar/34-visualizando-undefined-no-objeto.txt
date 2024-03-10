@@ -1,0 +1,9 @@
+let config = {
+    tema: "escuro",
+    moeda: "real"
+};
+
+config.moda = "teste"
+
+console.log(config.moeda);
+console.log(config.moda); // é um erro de digitação

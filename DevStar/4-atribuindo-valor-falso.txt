@@ -1,0 +1,5 @@
+// escreva sua solução abaixo
+
+let podeVotar = false
+
+

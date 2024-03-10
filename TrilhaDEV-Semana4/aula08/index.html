@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titulo">Aula sobre DOM!</h1>
+    <p id="paragrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nisi dicta velit mollitia
+        impedit distinctio optio dignissimos a dolore perspiciatis dolorem iure earum recusandae molestias eum ut?
+        Veniam, reprehenderit delectus.</p>
+
+       <button onclick="alterarTexto()">alterar texto</button>
+       <button onclick="alterarCor()">alterar cor</button>
+
+        <div id="div-teste" style="width: 200px; height: 200px; background-color: antiquewhite;">teste</div>
+
+    <script>
+        const h1 = document.getElementById("titulo");
+        // console.log(h1)
+
+        const paragrafo = document.getElementById("paragrafo")
+        // console.log("paragrafo")
+
+        // const divTeste = document.querySelector("#titulo")
+
+        function alterarTexto(){
+            paragrafo.innerHTML = ` 
+            <div>
+                Exemplo de alteração de texto via DOM 
+            </div>
+            <ul>
+                <li>Item da lista</li>
+            </ul>`
+
+        }
+
+        function alterarCor (){
+            const divCor = document.querySelector("#div-teste")
+
+            divCor.style.background = "red";
+        }
+      
+
+    </script>
+</body>
+
+</html>

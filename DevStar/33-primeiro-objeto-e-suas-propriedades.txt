@@ -1,0 +1,10 @@
+function objetoNoLog(obj) {
+   console.log(obj);
+}
+let restaurante = {
+  nome: "aToca",
+  classificacao: "5", 
+  abertoNasSegundas: true
+};
+
+objetoNoLog(restaurante);

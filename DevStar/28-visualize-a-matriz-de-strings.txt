@@ -1,0 +1,6 @@
+let nomes = ["Samuel", "Alexandre", "Carlos"]
+
+
+
+console.log(nomes) // log da matriz
+console.log(nomes[0]) // log do primeiro item

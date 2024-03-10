@@ -1,0 +1,20 @@
+function caractereSendoUsado(caracteres, caractere) {
+  
+      
+        if(caractereSendoUsado === caractere) {
+            return true
+        }else {
+            return false
+        }
+
+ 
+
+  
+
+}
+
+// Não modifique as linhas abaixo:
+console.log(caractereSendoUsado(["A", "B", "C", "D"], "A")) // true
+console.log(caractereSendoUsado(["A", "B", "C", "D"], "F")) // false
+console.log(caractereSendoUsado(["A", "B"], "B")) // true
+console.log(caractereSendoUsado(["A", "B"], "C")) // false
